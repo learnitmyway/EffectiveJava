@@ -41,6 +41,7 @@ bin
 *.msi
 
 /* Gradle */
-*.gradle
+.gradle/
+build/
 gradle
 gradlew
