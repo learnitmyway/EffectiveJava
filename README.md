@@ -5,4 +5,5 @@ My own examples from Effective Java by Joshua Bloch using TDD and Gradle
 * Item 3 - Singleton
 * Item 4 - Noninstantiability
 * Item 5 - Creating unnecessary objects
+* Items 8 & 9 - Overriding equals and hashCode
 
