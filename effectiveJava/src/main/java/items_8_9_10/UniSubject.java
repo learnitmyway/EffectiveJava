@@ -1,4 +1,4 @@
-package items8and9;
+package items_8_9_10;
 
 public class UniSubject {
 	
@@ -31,6 +31,11 @@ public class UniSubject {
 		result = 31 * result + professor.hashCode();
 		result = 31 * result + year;
 		return result;
+	}
+	
+	@Override
+	public String toString() {
+		return "[Content = " + content + ", Professor = " + professor + ", Year = " + year + "]";
 	}
 	
 }

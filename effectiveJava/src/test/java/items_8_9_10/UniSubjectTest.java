@@ -1,9 +1,11 @@
-package items8and9;
+package items_8_9_10;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Test;
+
+import items_8_9_10.UniSubject;
 
 public class UniSubjectTest {
 
@@ -151,6 +153,19 @@ public class UniSubjectTest {
 		// THEN
 		assertThat(xHashCode == yHashCode).isTrue();
 	}
+	
+	@Test
+	public void test_toString() {
+		// GIVEN
+		final UniSubject uniSubject = new UniSubject("Math", "Joe", 2016);
+		
+		// WHEN
+		final String uniSubjectText = uniSubject.toString(); 
+		
+		// THEN
+		assertThat(uniSubjectText).isEqualTo("[Content = Math, Professor = Joe, Year = 2016]");
+
+	}
 
 	private void test_areEqual(final UniSubject x, final UniSubject y) {
 
@@ -165,5 +180,6 @@ public class UniSubjectTest {
 		
 		softly.assertAll();
 	}
+	
 
 }
