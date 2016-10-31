@@ -7,4 +7,5 @@ My own examples from Effective Java by Joshua Bloch using TDD and Gradle
 * Item 5 - Creating unnecessary objects
 * Items 8, 9, 10 - Overriding equals and hashCode, toString
 * Item 11 - Alternative to clone
+* Item 12 - compareTo
 
