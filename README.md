@@ -11,3 +11,6 @@ My own examples from Effective Java by Joshua Bloch using TDD and Gradle
 * Item 12 - compareTo
 
 * Item 15 - Minimize Mutability
+
+* Item 18 - Prefer interfaces to abstract classes
+
