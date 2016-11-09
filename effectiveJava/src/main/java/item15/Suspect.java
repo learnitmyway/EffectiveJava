@@ -1,6 +1,6 @@
 package item15;
 
-class Suspect {
+final class Suspect {
 	private final String eyeColor;
 	private final String hairColor;
 	private final int height;
