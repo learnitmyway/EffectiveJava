@@ -14,3 +14,5 @@ My own examples from Effective Java by Joshua Bloch using TDD and Gradle
 
 * Item 18 - Prefer interfaces to abstract classes
 
+* Item 41 - Use overloading judiciously 
+
