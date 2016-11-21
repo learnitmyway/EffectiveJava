@@ -1,14 +1,16 @@
 # effectiveJava
-My own examples from Effective Java by Joshua Bloch using TDD and Gradle  
-* Item 1 - Static Factory
-* Item 2 - Builder
-* Item 3 - Singleton
-* Item 4 - Noninstantiability
-* Item 5 - Creating unnecessary objects
+My own examples from Effective Java by Joshua Bloch using TDD
+* Item 1 - Consider static factory methods instead of constructors
+* Item 2 - Consider a builder when face with many constructor parameters
+* Item 3 - Enforce the singleton property with a private constructor or an enum type
+* Item 4 - Enforce noninstantiability with a private constructor
+* Item 5 - Avoid creating unnecessary objects
 
-* Items 8, 9, 10 - Overriding equals and hashCode, toString
-* Item 11 - Alternative to clone
-* Item 12 - compareTo
+* Item 8 - 
+* Item 9 - Obey the general contract when overriding equals 
+* Item 10 - Always override hashCode when you override equals
+* Item 11 - Override clone judiciously
+* Item 12 - Consider implementing Comparabale
 
 * Item 15 - Minimize Mutability
 
@@ -16,3 +18,4 @@ My own examples from Effective Java by Joshua Bloch using TDD and Gradle
 
 * Item 41 - Use overloading judiciously 
 
+* Item 43 - Return empty arrays or collections, not nulls
