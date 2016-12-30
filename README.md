@@ -1,5 +1,5 @@
 # Effective Java
-My own examples from Effective Java by Joshua Bloch using TDD
+My own examples from Effective Java by Joshua Bloch using TDD.
 
 ### 2 Creating and Destroying Objects
 * Item 1 - Consider static factory methods instead of constructors
@@ -17,11 +17,14 @@ My own examples from Effective Java by Joshua Bloch using TDD
 
 ### 4 Classes and Interfaces
 * Item 15 - Minimize Mutability
-
 * Item 18 - Prefer interfaces to abstract classes
 
 ### 7 Methods
 * Item 38 - Check parameters for validity
 * Item 41 - Use overloading judiciously 
-
 * Item 43 - Return empty arrays or collections, not nulls
+
+### 9 Exceptions
+* Item 58 - Use checked exceptions for recoverable conditions and runtime exceptions for programming errors 
+* Item 59 - Avoid unnecessary use of checked exceptions
+* Item 60 - Favor the use of standard exceptions
