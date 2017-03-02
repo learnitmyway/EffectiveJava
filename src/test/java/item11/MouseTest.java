@@ -1,6 +1,5 @@
 package item11;
 
-import static org.junit.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
